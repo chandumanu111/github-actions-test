@@ -11,4 +11,4 @@ jobs:
         with:
           who-to-greet: Manasa
       - name: log greeting time
-        run: echo "{{steps.greet.outputs.time }}"
+        run: echo "{{ steps.greet.outputs.time }}"
