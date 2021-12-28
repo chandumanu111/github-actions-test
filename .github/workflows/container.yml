@@ -1,5 +1,5 @@
 name: Container
-on: pull_request
+on: push
 jobs:
   node-docker: 
     runs-on: ubuntu-latest
