@@ -2,7 +2,7 @@ name: Actions workflow
 
 on: 
   schedule:
-    - cron: "* * * * *"
+    - cron: "5/5 * * * *"
   # push:
   pull_request:
     types: [opened, closed, reopened, assigned]
